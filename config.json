@@ -1,0 +1,20 @@
+{
+    "input": "generated.txt",
+    "output": "output.mp3",
+    "delimiters": {
+        "dialog": "\n\n",
+        "speaker": ":\n"
+    },
+    "voices": {
+        "JOE ROGAN": {
+            "type": "en-US-Wavenet-A",
+            "pitch": 1.2,
+            "speakingRate": 1.02
+        },
+        "ELON MUSK": {
+            "type": "en-US-Wavenet-D",
+            "pitch": -4.4,
+            "speakingRate": 1.06
+        }
+    }
+}
